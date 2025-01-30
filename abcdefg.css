@@ -1,0 +1,53 @@
+.abcdechat-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .abcdechat-container {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .abcdeclose-btn {
+      position: absolute;
+      top: 1px;
+      right: 1px;
+      font-size: 20px;
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1001;
+    }
+    .abcdeclose-btn:hover {
+      background-color: darkred;
+    }
+    .abcdeopen-chat-btn {
+  width: 100%;  
+  height: 40px; 
+  background-color: #b0003a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abcdeopen-chat-btn:hover {
+  background-color: #ff4f98;
+}

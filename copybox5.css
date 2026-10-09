@@ -1,0 +1,188 @@
+/* CSS 찜*/
+.button-123 {
+  background-color: #b0003a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-123:hover,
+.button-123:focus {
+  background-color: #ff4f98;
+}
+/* 추가 */
+    body.dark-mode #bd_lst a.notice,
+    body.dark-mode #bd_zine li.notice,
+    body.dark-mode #bd_lst a:hover,
+    body.dark-mode #bd_lst .bg1,
+    body.dark-mode #bd_lst .bg2 {
+        background-color: #1a1a1a !important;
+        border-color: #2a2a2a !important;
+    }
+    body.dark-mode #bd_lst a {
+        color: #cccccc !important;
+    }
+    body.dark-mode #bd_lst a:visited,
+    body.dark-mode #bd_lst .nick {
+        color: #999999 !important;
+    }
+    body.dark-mode #bd_lst a strong {
+        color: #ffffff !important;
+    }
+    body.dark-mode #bd_lst a.notice strong,
+    body.dark-mode #bd_zine li.notice strong {
+        color: #ffffff !important;
+    }
+    body.dark-mode #bd_lst a,
+    body.dark-mode #bd_zine li {
+        border-bottom: 1px solid #2a2a2a !important;
+    }
+/* 다크 */
+    body.dark-mode {
+        background-color: #121212;
+        color: #f0f0f0;
+    }
+    body.dark-mode .bd em, 
+    body.dark-mode .bd .color { 
+        color: #f0f0f0; 
+    }
+    body.dark-mode .bd .shadow { 
+        text-shadow: 1px 1px 1px #000000; 
+    }
+    body.dark-mode .bd .bolder { 
+        color: #f0f0f0; 
+        text-shadow: 2px 2px 4px #000000; 
+    }
+    body.dark-mode .bd .bg_color { 
+        background-color: #1e1e1e; 
+    }
+    body.dark-mode .bd .bg_f_color { 
+        background-color: #1e1e1e; 
+        background: -ms-linear-gradient(#000000 -50%, #1e1e1e 50%); 
+        background: -moz-linear-gradient(#000000 -50%, #1e1e1e 50%); 
+        background: -webkit-linear-gradient(#000000 -50%, #1e1e1e 50%); 
+    }
+    body.dark-mode .bd .border_color { 
+        border-color: #444444; 
+    }
+    body.dark-mode .bd .bx_shadow { 
+        -webkit-box-shadow: 0 0 2px #000000; 
+        box-shadow: 0 0 2px #000000; 
+    }
+    /* 다크1 */
+    body.dark-mode li.bg1,
+    body.dark-mode li.bg2 {
+        background-color: #1a1a1a; 
+        border-bottom: 1px solid #2a2a2a; 
+    }
+    body.dark-mode li.bg1 a,
+    body.dark-mode li.bg2 a {
+        color: #e0e0e0; 
+        text-decoration: none;
+    }
+    body.dark-mode li.bg1 a strong,
+    body.dark-mode li.bg2 a strong {
+        color: #ffffff; 
+    }
+    body.dark-mode li.bg1 .nick,
+    body.dark-mode li.bg2 .nick {
+        color: #aaaaaa; 
+    }
+    /* 다크2 */
+    body.dark-mode li.bg1 span[style*="color:blue;"],
+    body.dark-mode li.bg2 span[style*="color:blue;"] {
+        color: #64b5f6 !important; 
+    }
+/* et다크 */
+    body.dark-mode .et_vars {
+        border-color: #333333;
+        border-left-color: #2a2a2a;
+    }
+    body.dark-mode .et_vars th,
+    body.dark-mode .et_vars td {
+        border-top-color: #2a2a2a;
+    }
+    body.dark-mode .et_vars tr:first-child td {
+        border-top-color: #2a2a2a;
+    }
+    body.dark-mode .et_vars th {
+        border-right-color: #333333;
+        background-color: #181818;
+    }
+    body.dark-mode .et_vars tr {
+        color: #b0b0b0;
+    }
+    body.dark-mode .et_vars tr.bg1 {
+        background: #161616;
+    }
+    body.dark-mode .et_vars tr.bg2 {
+        background: #1c1c1c;
+    }
+    body.dark-mode .et_vars td {
+        border-left-color: #222222;
+        background: rgba(30, 30, 30, 0.6);
+    }
+/* 기본 버튼 */
+    #darkModeToggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 12px 20px;
+        background-color: #121212; 
+        color: #ffffff;            
+        border: 1px solid #121212;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: all 0.25s ease-in-out;
+        width: 100%; 
+        margin: 0 auto;
+    }
+    #darkModeToggle:hover {
+        background-color: #2a2a2a;
+        transform: translateY(-1px);
+    }
+    #darkModeToggle:active {
+        transform: translateY(0);
+    }
+    #darkModeToggle .icon {
+        font-size: 15px;
+        transition: transform 0.3s ease;
+    }
+    #darkModeToggle:hover .icon {
+        transform: rotate(15deg);
+    }
+    /* 다크4 */
+    body.dark-mode #darkModeToggle {
+        background-color: #ffffff; 
+        color: #121212;           
+        border-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+    }
+    body.dark-mode #darkModeToggle:hover {
+        background-color: #e0e0e0;
+    }
